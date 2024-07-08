@@ -1073,8 +1073,6 @@ footer{
    }
    
 }
-
-
 /* Existing CSS remains the same */
 
 /* Responsive Design */
@@ -1199,6 +1197,11 @@ footer{
 
     .hero-section {
         gap: 1rem;
+    }
+
+    /* Hide the hero image in the About Us section on mobile */
+    .about .hero-image {
+        display: none;
     }
 }
 
